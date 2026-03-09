@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Bangus Festival",
+    "imageUrl": "assets/bangusFestival.jpg",
+    "pageUrl": "festivalPages/bangusFestival.html"
+  },
+  {
+    "name": "Bambanti Festival",
+    "imageUrl": "assets/bambantiFestival.jpg"
+  },
+  {
+    "name": "Giant Lantern Festival",
+    "imageUrl": "assets/giantLanternFestival.jpg"
+  },
+  {
+    "name": "Penagbenga Festival",
+    "imageUrl": "assets/penagbengaFestival.jpg"
+  },
+  {
+    "name": "Peñafrancia Festival",
+    "imageUrl": "assets/peñafranciaFestival.jpg"
+  },
+  {
+    "name": "Pista ng Itim na Nazareno",
+    "imageUrl": "assets/pistangItimnaNazareno.jpg"
+  }
+]
