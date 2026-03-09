@@ -15,11 +15,20 @@
     </div>
   </header>
 
-  <div class="mainContent">
+  <div class="mainContent" style="display: flex; align-items: center; flex-direction: column;">
     <h1 class="title">Discover Philippines: Culture, Heritage, and Identity</h1>
     
+    <div class="regionContainer">
+      <a href="luzon.html" class="region" id="luzon"><h1>Luzon</h1></a>
+      <p>Luzon is the largest and most populous island in the Philippines. Located in the northern portion of the Philippine archipelago, it is the economic and political center of the nation, being home to the country's capital city, Manila, as well as Quezon City, the country's most populous city. With a population of 64.3 million as of 2024,[2] it contains 55 percent of the country's total population and is the 4th most populous island in the world.[3] It is the 15th largest island in the world by land area.</p>
+    </div>
   </div>
 
   <footer>© 2026 Discover Philippines: Culture, Heritage, and Identity</footer>
+
+  <script src="main.js"></script>
+  <script>
+    createSlideshowElement(luzon, "luzonList.json");
+  </script>
 </body>
 </html>
