@@ -6,12 +6,10 @@ async function getJSON(source) {
 async function populateFestivalContainer(source) {
   let list = await getJSON(source);
 
-  console.log()
-
   for(let {name, imageUrl, pageUrl} of list){
     let box = document.createElement("div");
 
-    box.classList.add("festivalPreview");
+    box.classList.add("festivalPreview", "isFloatable");
     box.style.backgroundImage = `url(${imageUrl})`;
     
     box.addEventListener("click", () => {
@@ -40,6 +38,10 @@ async function createSlideshowElement(elem, source) {
       await waitTime(5000);
     }
   }
+}
+
+function setLightBackground(url) {
+  document.body.style.backgroundImage = `linear-gradient(to bottom right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('${url}')`;
 }
 
 function waitTime(time) {

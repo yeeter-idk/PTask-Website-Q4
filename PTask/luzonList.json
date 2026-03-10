@@ -1,27 +1,32 @@
 [
   {
     "name": "Bangus Festival",
-    "imageUrl": "assets/bangusFestival.jpg",
+    "imageUrl": "assets/BangusFestival.jpg",
     "pageUrl": "festivalPages/bangusFestival.html"
   },
   {
     "name": "Bambanti Festival",
-    "imageUrl": "assets/bambantiFestival.jpg"
+    "imageUrl": "assets/BambantiFestival.jpg",
+    "pageUrl": "festivalPages/bambantiFestival.html"
   },
   {
     "name": "Giant Lantern Festival",
-    "imageUrl": "assets/giantLanternFestival.jpg"
+    "imageUrl": "assets/GiantLanternFestival.jpg",
+    "pageUrl": "festivalPages/giantLanternFestival.html"
   },
   {
-    "name": "Penagbenga Festival",
-    "imageUrl": "assets/penagbengaFestival.jpg"
+    "name": "Panagbenga Festival",
+    "imageUrl": "assets/PanagbengaFestival.jpg",
+    "pageUrl": "festivalPages/panagbengaFestival.html"
   },
   {
     "name": "Peñafrancia Festival",
-    "imageUrl": "assets/peñafranciaFestival.jpg"
+    "imageUrl": "assets/PeñafranciaFestival.jpg",
+    "pageUrl": "festivalPages/peñafranciaFestival.html"
   },
   {
     "name": "Pista ng Itim na Nazareno",
-    "imageUrl": "assets/pistangItimnaNazareno.jpg"
+    "imageUrl": "assets/PistangItimnaNazareno.jpg",
+    "pageUrl": "festivalPages/pistangItimnaNazareno.html"
   }
 ]
