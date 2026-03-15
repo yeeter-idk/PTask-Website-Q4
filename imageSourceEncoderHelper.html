@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Page title</title>
+</head>
+<body>
+  <input type="text" id="imageFilename"><input type="text" id="imageSource">
+  <button onclick="add()">Add</button>
+  
+<textarea>
+  ‎Panagbenga Festival: https://www.slu.edu.ph/2024/10/18/cordillera-festival-of-festivals-2024-slu-cca-enlivens-the-streets-of-baguio/
+‎
+‎Shariff Kabunsuan Festival: https://www.sunstar.com.ph/cagayan-de-oro/shariff-kabunsuan-festival-relives-arrival-of-islam-in-mindanao
+‎
+‎T'nalak Festival: https://thehappytrip.com/2017/07/tnalak-festival-travel-guide/
+‎
+‎Zamboanga Hermosa Festival: https://www.facebook.com/photo/?fbid=125894603585874&set=pcb.125898030252198
+‎
+‎Bonok-Bonok Festival: https://mindanews.com/arts-culture/2025/09/surigao-celebrates-culture-and-downpour-of-blessings-in-bonok-bonok-festival/
+‎
+‎Kadayawan Festival: 
+‎https://www.instagram.com/p/C-4vxgWSFmN/?img_index=3
+‎
+‎Kaamulan Festival: https://eazytraveler.net/2018/06/kaamulan-festival-malaybalay-bukidnon/
+‎
+‎Peñafrancia Festival:
+‎https://www.google.com/url?q=https://www.facebook.com/PHLinUK/posts/pe%25C3%25B1afrancia-festivalnaga-city-bicol-regioncelebrated-every-third-sunday-of-septe/2068239219861566/&sa=U&ved=2ahUKEwjgl_esl5-TAxXeV2wGHfWhBSEQn5YKegQIDRAB&usg=AOvVaw1fXy7u8wdjaABak14W98c2
+‎
+‎Pintados-kasadyaan:
+‎https://www.lakwatserongtsinelas.com/2014/07/2014-pintados-kasadyaan-festival.html?m=1
+‎
+‎NAZARENO
+‎https://www.google.com/url?q=https://www.facebook.com/rapplerdotcom/posts/hundreds-of-catholic-devotees-follow-the-image-of-the-black-nazarene-as-it-cross/846799880815415/&sa=U&ved=2ahUKEwjvyay4mJ-TAxUs1jQHHSleNicQ6vUJegUI9QEQAA&usg=AOvVaw2Na3f4qjjHnSzk8Pq-Ndch
+‎
+‎Sinulog Festival: https://www.pinterest.com/pin/259871840992209323/
+‎
+‎Bambanti Festival: https://outoftownblog.com/ettam-ngana-ta-bambanti-isabela-celebrates-their-2024-festival-of-scarecrows/amp/
+‎
+‎Bangus Festival:
+‎https://www.google.com/url?q=https://www.facebook.com/VistaEstatesOfficial/posts/experience-the-flavor-festivities-and-rich-heritage-of-bangus-festival-in-the-ci/122169990620292151/&sa=U&ved=2ahUKEwjonZSgmp-TAxUs3jgGHdsCK_0Qn5YKegQIDhAB&usg=AOvVaw226Ul-r6s_b5n1_5ToDPop
+‎
+‎Giant Lantern Festival: https://www.karlaroundtheworld.com/sinukwan-festival-in-pampanga-2019/
+‎
+‎Dinagyang Festival: https://pia.gov.ph/news/visayas/wv/iloilos-dinagyang-festival-will-go-international-in-2025/
+‎
+‎MassKara Festival: 
+‎https://www.google.com/url?q=https://www.instagram.com/p/DPyLyQnAJkP/&sa=U&ved=2ahUKEwixo4jem5-TAxVKz6ACHcNMO2IQ6vUJegQIQxAA&usg=AOvVaw10w-UycQ9gTVCyAvCb4jru
+</textarea>
+  
+<script>
+let obj = {};
+
+function add() {
+  let filename = imageFilename.value;
+  let source = imageSource.value;
+  
+  obj[filename] = source;
+  
+  imageFilename.value = "";
+  imageSource.value = "";
+}
+</script>
+</body>
+</html>
+
+{
+  "PanagbengaFestival.jpg": "https://www.slu.edu.ph/2024/10/18/cordillera-festival-of-festivals-2024-slu-cca-enlivens-the-streets-of-baguio/",
+  "ShariffKabunsuanFestival.jpg": "https://www.sunstar.com.ph/cagayan-de-oro/shariff-kabunsuan-festival-relives-arrival-of-islam-in-mindanao",
+  "T’nalakFestival.jpg": "https://thehappytrip.com/2017/07/tnalak-festival-travel-guide/",
+  "ZamboangaHermosaFestival.jpg": "https://www.facebook.com/photo/?fbid=125894603585874&set=pcb.125898030252198",
+  "Bonok-BonokMaradjawKaradjawFestival.jpg": "https://mindanews.com/arts-culture/2025/09/surigao-celebrates-culture-and-downpour-of-blessings-in-bonok-bonok-festival/",
+  "KadayawanFestival.jpg": "https://www.instagram.com/p/C-4vxgWSFmN/?img_index=3",
+  "KaamulanFestival.jpg": "https://eazytraveler.net/2018/06/kaamulan-festival-malaybalay-bukidnon/",
+  "PeñafranciaFestival.jpg": "https://www.google.com/url?q=https://www.facebook.com/PHLinUK/posts/pe%25C3%25B1afrancia-festivalnaga-city-bicol-regioncelebrated-every-third-sunday-of-septe/2068239219861566/&sa=U&ved=2ahUKEwjgl_esl5-TAxXeV2wGHfWhBSEQn5YKegQIDRAB&usg=AOvVaw1fXy7u8wdjaABak14W98c2",
+  "Pindatos-KasadyaanFestival.jpg": "https://www.lakwatserongtsinelas.com/2014/07/2014-pintados-kasadyaan-festival.html?m=1",
+  "PistangItimnaNazareno.jpg": "https://www.google.com/url?q=https://www.facebook.com/rapplerdotcom/posts/hundreds-of-catholic-devotees-follow-the-image-of-the-black-nazarene-as-it-cross/846799880815415/&sa=U&ved=2ahUKEwjvyay4mJ-TAxUs1jQHHSleNicQ6vUJegUI9QEQAA&usg=AOvVaw2Na3f4qjjHnSzk8Pq-Ndch",
+  "SinulogFestival.jpg": "https://www.pinterest.com/pin/259871840992209323/",
+  "BambantiFestival.jpg": "https://outoftownblog.com/ettam-ngana-ta-bambanti-isabela-celebrates-their-2024-festival-of-scarecrows/amp/",
+  "BangusFestival.jpg": "https://www.google.com/url?q=https://www.facebook.com/VistaEstatesOfficial/posts/experience-the-flavor-festivities-and-rich-heritage-of-bangus-festival-in-the-ci/122169990620292151/&sa=U&ved=2ahUKEwjonZSgmp-TAxUs3jgGHdsCK_0Qn5YKegQIDhAB&usg=AOvVaw226Ul-r6s_b5n1_5ToDPop",
+  "GiantLanternFestival.jpg": "https://www.karlaroundtheworld.com/sinukwan-festival-in-pampanga-2019/",
+  "‎DinagyangFestival.jpg": "https://pia.gov.ph/news/visayas/wv/iloilos-dinagyang-festival-will-go-international-in-2025/",
+  "MassKaraFestival.jpg": "‎https://www.google.com/url?q=https://www.instagram.com/p/DPyLyQnAJkP/&sa=U&ved=2ahUKEwixo4jem5-TAxVKz6ACHcNMO2IQ6vUJegQIQxAA&usg=AOvVaw10w-UycQ9gTVCyAvCb4jru"
+}

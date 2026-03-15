@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Zamboanga Hermosa Festival",
+    "imageUrl": "assets/ZamboangaHermosaFestival.jpg",
+    "pageUrl": "festivalPages/zamboangaHermosaFestival.html"
+  },
+  {
+    "name": "Kaamulan Festival",
+    "imageUrl": "assets/KaamulanFestival.jpg",
+    "pageUrl": "festivalPages/kaamulanFestival.html"
+  },
+  {
+    "name": "Kadayawan Festival",
+    "imageUrl": "assets/KadayawanFestival.jpg",
+    "pageUrl": "festivalPages/kadayawanFestival.html"
+  },
+  {
+    "name": "T’nalak Festival ",
+    "imageUrl": "assets/T’nalakFestival.jpg",
+    "pageUrl": "festivalPages/t’nalakFestival.html"
+  },
+  {
+    "name": "Bonok-Bonok Maradjaw Karadjaw Festival",
+    "imageUrl": "assets/Bonok-BonokMaradjawKaradjawFestival.jpg",
+    "pageUrl": "festivalPages/bonok-BonokMaradjawKaradjawFestival.html"
+  },
+  {
+    "name": "Shariff Kabunsuan Festival",
+    "imageUrl": "assets/ShariffKabunsuanFestival.jpg",
+    "pageUrl": "festivalPages/shariffKabunsuanFestival.html"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Dinagyang Festival",
+    "imageUrl": "assets/DinagyangFestival.jpg",
+    "pageUrl": "festivalPages/dinagyangFestival.html"
+  },
+  {
+    "name": "Sinulog Festival",
+    "imageUrl": "assets/SinulogFestival.jpg",
+    "pageUrl": "festivalPages/sinulogFestival.html"
+  },
+  {
+    "name": "Pintados-Kasadyaan Festival",
+    "imageUrl": "assets/Pintados-KasadyaanFestival.jpg",
+    "pageUrl": "festivalPages/pintados-KasadyaanFestival.html"
+  },
+  {
+    "name": "MassKara Festival",
+    "imageUrl": "assets/MassKaraFestival.jpg",
+    "pageUrl": "festivalPages/massKaraFestival.html"
+  }
+]
