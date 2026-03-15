@@ -144,6 +144,7 @@ footer{
 
 .regionContainer{
   width: max(80vw, 300px);
+  max-width: 500px;
   /*min-width: 100;*/
   display: grid;
   grid-template-columns: 50% 50%;
