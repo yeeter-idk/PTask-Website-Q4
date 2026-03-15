@@ -127,8 +127,23 @@ footer{
   font-size: 32pt;
 }
 
+/*@media screen and (max-width: 600px) {
+  .regionContainer{
+    width: 100%;
+    min-width: 100;
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+
+  .regionContainer > p{
+    width: 100%;
+    margin: 10px;
+  }
+
+}*/
+
 .regionContainer{
-  width: 50%;
+  width: max(80vw, 300px);
   /*min-width: 100;*/
   display: grid;
   grid-template-columns: 50% 50%;
